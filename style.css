@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+    background-color: #f1f3f6;
+}
+
+:root {
+    --primary-color: #2874f0;
+}
+
+.container{
+    padding:0 8px;
+}
+
+/* header */
+header{
+    background-color: var(--primary-color);
+    height: 56px;
+}
+
+header .nav-container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    max-width: 1248px;
+    margin: 0 auto;
+}
+
+
+header .nav-container .logo {
+    display: flex;
+    min-width: 137px;
+    justify-content: flex-end;
+}
+header .nav-container .logo img {
+    width: 75px;
+}
+
+header .search{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+
+header .search .search-container {
+    width: 540px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 23%);
+    display: flex;
+}
+
+header .search .search-container input {
+    width: calc(100% - 32px);
+    padding: 16px;
+    outline: none;
+    border: none;
+}
+    
+header .search .search-container button {
+    width: 36;
+    height: 100%;
+    padding: 0 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: white;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+}
+
+header .login {
+    height: 100%;
+    display: flex;
+    align-items:center;
+    margin: 0 20px;
+}
+
+header .login button {
+    width: 122px;
+    padding: 5px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+
+header .become-seller{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+header .more {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    color: white;
+    font: 16px;
+    font-weight: 500;
+}
+
+header .more svg {
+    margin-left: 8px;
+    rotate: 270deg;
+}
+
+header .cart {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    color: white;
+}
+
+header .cart svg {
+    margin-right: 8px;
+}
+*/
+
+/*section 1*/
+.section-1 {
+    width: 100%;
+    height: 122px;
+    background-color: white;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
+}
+.section-1-container {
+    width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-1-item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.section-1-item img {
+    width: 64px;
+    height: 64px;
+}
+
+/*section-2*/
+.section-2-container {
+    margin-top: 16px;
+    height: 280px;
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/3376/560/image/0735712fe84c602d.jpg?q=50');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    
+
+}
+
+/*section-3 */
+.section-3-container {
+    margin-top:8px;
+    height:122px;
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/2848/246/image/d56a3ed6d200038a.jpg?q=50');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+/*section-4 */
+.section-4-container {
+    margin-top: 8px;
+    height: 362px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ;
+}
+
+.section-4-Offers {
+    width: 230px;
+    height: 100%;
+    display: inline;
+    box-sizing: border-box;
+    background-image:none;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+
+}
+
+.section-4-Offers-veiwall {
+    margin-top: 132px;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.section-4-Offers-veiwall button {
+    margin-top: 24px;
+    height: 40;
+    background-color: var(--primary-color);
+    color: white;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.section-4-list {
+    height:100%;
+    width: calc(100% - 230px);
+    display: flex;
+    overflow-x: auto;
+}
+
+.section-4-item {
+    width: 232px;
+    height: 100%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-4-item img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.section-4-item-head {
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.section-4-item-price {
+    margin-top: 12px;
+    font-size: 16px;
+    color: #388e3c;
+}
+
+.section-item-explore {
+    opacity: 0.6;
+    margin-top: 12px;
+    font-weight: 300;
+    font-size: 12px;
+
+}
+
+/* section-5 */
+.section-5 {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-5 img {
+    width: 33%;
+}
+
+footer {
+    margin-top: 26px;
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+    font-size: 14px;
+    color: #878787;
+}
+
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #f1f1f1;
+}
+
+.login-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.login-container h2 {
+    margin-bottom: 1rem;
+}
+
+.input-group {
+    margin-bottom: 1rem;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #2874F1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #1a5bb8;
+}
+
+.login-container p {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.login-container p a {
+    color: #2874F1;
+    text-decoration: none;
+}
+
+.login-container p a:hover {
+    text-decoration: underline;
+}
+.section-4-Offers ._58bkzq8l {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold; /* Optional: makes the text bold */
+    color: #000; /* Optional: sets the text color */
+    margin-bottom: 20px; /* Optional: adds space below the heading */
+}
