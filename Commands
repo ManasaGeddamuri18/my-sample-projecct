@@ -29,3 +29,5 @@ cp style.css /var/www/html //it copies the file style.css file to the html path
 cd /var/www/html //it changes the directory from environment to the html path
 now we are in html directory 
 ls // listouts all the files 
+now we can see those files in this directory
+now in ec2 go to instances and make that public ip as elastic ip so that the ip will not be changed for everytime 
