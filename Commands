@@ -1,0 +1,31 @@
+After creating cloud9 the instance is automatically u can choose whatever operating system u want for example ubuntu 
+Now we need to deploy an ecommerce website 
+Now open the cloud9
+Then go to bash and give the following commands
+sudo su //switch to root user
+apt-get update // This command is used to fetch all the packages and prepares to update all packages
+apt-get install apache2 //   The 'apt-get' tool checks for any dependencies required by Apache2 and prepares to download and install them along with Apache2.
+systemctl start apache2 // It is used to start the Apache2 web server service on systems that use systemd as their init system.
+cd /var/www/html // navigates to that path
+ls // gives what are the files are present in that path
+cd .. // It goes to the one step back to the path which is www
+Now it is in the path // /var/www
+Now to delete the files in the html we need to give the permissions to the html 
+chmod 777 html
+Now we can remove the file index.html
+rm index.html // it removes the file index.html
+ls // returns no files were present 
+now upload the files to the environment
+index.html
+login.html
+style.css
+cd //It is used for to go back completely 
+cd /home/ubuntu/environment // it moves to the environment path and environment 
+Now ls // gives all the files that we have uploaded
+now copy these files to the /var/www/html path
+cp index.html /var/www/html // it copies the file index.html file to html path
+cp login.html /var/www/html //it copies the file login.html file to html path
+cp style.css /var/www/html //it copies the file style.css file to the html path
+cd /var/www/html //it changes the directory from environment to the html path
+now we are in html directory 
+ls // listouts all the files 
